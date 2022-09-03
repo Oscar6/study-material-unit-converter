@@ -1,2 +1,3 @@
-# study-material-unit-converter
-Unit converter challenge
+# Unit Converter
+
+Scrimba Unit Converter project
