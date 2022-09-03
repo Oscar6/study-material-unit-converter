@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css" />
+        <title>Unit Converter</title>
+    </head>
+
+    <main class="container">
+        <body>
+            <div class="display-area">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                    <input
+                    type="text"
+                    id="type"
+                    name="#"
+                    oninput="convertInput()"
+                    />
+            <div class="box">
+                <div class="length-box">
+                    <h2>Length (Meter/Feet)</h2>
+                    <p id="length">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+                </div>
+                <div class="volume-box">
+                    <h2>Volume (Liters/Gallons)</h2>
+                    <p id="volume">0 liters = 0.000 gallons | 0 gallons = 0.000 liters</p>
+                </div>
+                <div class="mass-box">
+                    <h2>Mass (Kilograms/Pounds)</h2>
+                    <p id="mass">0 kilos = 0.000 pounds | 0 pounds = 0.000 kilos</p>
+                </div>
+            </div>
+            </div>
+        <script src="index.js"></script>
+    </body>
+    </main>
+</html>
